@@ -1,11 +1,13 @@
-# The Dactyl-ManuForm Keyboard
-This is a fork of the [Dactyl](https://github.com/adereth/dactyl-keyboard), a parameterized, split-hand, concave, columnar, ergonomic keyboard.
+# The Dactyl-ManuDox Keyboard
+This is a combination of the [Dactyl](https://github.com/adereth/dactyl-keyboard), the [Manuform](https://github.com/jeffgran/ManuForm) and the [ErgoDox]() keyboards, a parameterized, split-hand, concave, columnar, ergonomic keyboard.
 
-![Imgur](http://i.imgur.com/LdjEhrR.jpg)
+Right now the documentation and files are still from the Dactyl-Manuform fork except for the main dactyl.clj file which already contains my WIP, but will probably be updated once I'm further along with my design.
 
-The main change is that the thumb cluster was adapted from the [ManuForm keyboard](https://github.com/jeffgran/ManuForm) ([geekhack](https://geekhack.org/index.php?topic=46015.0)). The walls were changed to just drop to the floor. The keyboard is paramaterized to allow adjusting the following: 
+![Imgur](https://i.imgur.com/sUiH9fP.jpg)
 
-* Rows: 4 - 6 
+Image of the first test print
+
+* Rows: 7
 * Columns: 5 and up
 * Row curvature
 * Column curvature
@@ -13,11 +15,6 @@ The main change is that the thumb cluster was adapted from the [ManuForm keyboar
 * Column tilt
 * Column offsets
 * Height
-
-I built a 4x5 version (40% size) for myself. The default has a bit more tenting than the Dactyl. See the following model files for configurations that may be most common:
-
-* [40% size, (4x5)](https://github.com/tshort/dactyl-keyboard/blob/master/things/right-4x5.stl)
-* [60% size, (5x6)](https://github.com/tshort/dactyl-keyboard/blob/master/things/right-5x6.stl)
 
 
 ## Assembly
@@ -129,6 +126,6 @@ This site also shows connections for the Arduino Pro Micro controllers.
 
 ## License
 
-Copyright © 2015-2017 Matthew Adereth and Tom Short
+Copyright © 2015-2018 Matthew Adereth and Tom Short and Phillip Thelen
 
 The source code for generating the models (everything excluding the [things/](things/) and [resources/](resources/) directories is distributed under the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3](LICENSE).  The generated models and PCB designs are distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike License Version 3.0](LICENSE-models).
