@@ -749,11 +749,11 @@
                     thumb
                     thumb-connectors
                     case-walls 
-                    thumbcaps
-                    caps
-                    teensy-holder
-                    rj9-holder
-                    usb-holder-hole
+                    ;thumbcaps
+                    ;caps
+                    ;teensy-holder
+                    ;rj9-holder
+                    ;usb-holder-hole
                     ; usb-holder-hole
                     ; ; teensy-holder-hole
                     ;             screw-insert-outers 
